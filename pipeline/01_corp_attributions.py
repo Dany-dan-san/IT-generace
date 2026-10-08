@@ -54,7 +54,7 @@
 # The output is saved in "user_corporate_creds.json", which is used
 # by the next script to generate managerial attributes and employee skills.
 
-# NOTE: Developped without the use of AI. 
+# NOTE: Developed without the use of AI. 
 
 # ===========================================================
 # C. FULL SCRIPT
