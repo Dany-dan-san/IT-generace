@@ -1,3 +1,85 @@
+
+# =======================================================================================================
+# STEP 2: MANAGERIAL ATTRIBUTES AND SKILL GENERATION
+# =======================================================================================================
+
+# This script extends the corporate attributes generated in Step 1 by identifying
+# managerial employees and introducing a system for generating professional skills.
+# Managerial positions are assigned based on age and department, while the skill
+# generation system uses departmental priorities, seniority, and weighted parameters.
+
+# ===============================================================================
+# A. KEY PARAMETERS
+# ===============================================================================
+
+# The main configurable parameters are:
+
+# - FILE_USER_PATH: Path to the JSON file containing employee demographic data.
+# - FILE_CORP_CREDS_PATH: Path to the JSON file containing corporate attributes.
+
+# - DEPTS: Departments considered for managerial assignments.
+# - DEPT_SKILLS: Two priority skills associated with each department.
+# - DEPT_SKILL_WEIGHTS: Relative importance of each department's priority skills
+#   (1 = secondary importance, 2 = primary importance).
+
+# - SKILLS: Six professional competencies (Marketing, Sales, Accounting,
+#   Administrative, Programming, Executive).
+
+# - SENIORITIES_RANGES: Intended skill-score ranges for each seniority level
+#   (Entry, Junior, Medior, Senior, Executive).
+
+# - MANAG_B00ST: Intended skill bonus for employees holding managerial positions
+#   (e.g., 0.15 for a 15% boost).
+
+# ===============================================================================
+# B. MANAGERIAL ATTRIBUTIONS
+# ===============================================================================
+
+# The script identifies managerial employees according to the following rules:
+
+# - MANAG: The oldest employee in each non-executive department is assigned
+#   managerial status (1 = Manager, 0 = Non-manager).
+
+# - UPPER_MANAG: Reserved for upper management classification.
+#   Currently initialized to 0 for all employees.
+
+# - EXEC_MANAG: Employees with Executive seniority are identified separately
+#   (1 = Executive, 0 = Non-executive).
+
+# ===============================================================================
+# C. SKILL GENERATION (UNDER DEVELOPMENT)
+# ===============================================================================
+
+# The skill system is designed to generate employee competencies according to:
+
+# - Department: Determines two priority skills and their relative importance.
+# - Seniority: Determines the intended range of skill scores.
+# - Managerial status: Intended to provide additional skill bonuses.
+
+# Employees are grouped by department and seniority to prepare the allocation
+# of skill scores. Numerical skill generation is not yet implemented.
+
+# ===============================================================================
+# D. KEY OUTPUT
+# ===============================================================================
+
+# The script updates "user_corporate_creds.json" with the following attributes:
+
+# - Unique employee ID
+# - Seniority level
+# - Department
+# - Job position
+# - Manager status (manag)
+# - Upper management status (upper_manag)
+# - Executive management status (exec_manag)
+
+# NOTE: The script overwrites the existing corporate attributes JSON file.
+# Skill scores are not yet included in the output.
+
+# ===========================================================
+# E. FULL SCRIPT
+# ===========================================================
+
 import pandas as pd
 import numpy as np
 import json
