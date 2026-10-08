@@ -1,0 +1,452 @@
+[
+       {
+              "ID": "017828",
+              "seniority": "Medior",
+              "department": "Development",
+              "position": "Software Developer",
+              "manag": 0,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "060185",
+              "seniority": "Senior",
+              "department": "Development",
+              "position": "Software Developer",
+              "manag": 0,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "076542",
+              "seniority": "Medior",
+              "department": "Development",
+              "position": "DevOps Engineer",
+              "manag": 0,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "115126",
+              "seniority": "Medior",
+              "department": "Development",
+              "position": "DevOps Engineer",
+              "manag": 0,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "118829",
+              "seniority": "Junior",
+              "department": "Development",
+              "position": "Database Engineer",
+              "manag": 0,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "141448",
+              "seniority": "Medior",
+              "department": "Marketing",
+              "position": "Campaign Specialist",
+              "manag": 0,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "189414",
+              "seniority": "Senior",
+              "department": "Development",
+              "position": "Software Developer",
+              "manag": 0,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "208072",
+              "seniority": "Medior",
+              "department": "Sales",
+              "position": "Account Specialist",
+              "manag": 0,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "271323",
+              "seniority": "Entry",
+              "department": "Sales",
+              "position": "Sales Representative",
+              "manag": 0,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "276016",
+              "seniority": "Junior",
+              "department": "Development",
+              "position": "Software Developer",
+              "manag": 0,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "314824",
+              "seniority": "Junior",
+              "department": "Development",
+              "position": "Software Developer",
+              "manag": 0,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "341966",
+              "seniority": "Senior",
+              "department": "Administration",
+              "position": "Operations & HR Director",
+              "manag": 0,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "351380",
+              "seniority": "Senior",
+              "department": "Development",
+              "position": "Software Developer",
+              "manag": 0,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "352814",
+              "seniority": "Medior",
+              "department": "Development",
+              "position": "DevOps Engineer",
+              "manag": 0,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "353114",
+              "seniority": "Medior",
+              "department": "Administration",
+              "position": "Executive Assistant",
+              "manag": 0,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "356462",
+              "seniority": "Medior",
+              "department": "Marketing",
+              "position": "Content Specialist",
+              "manag": 0,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "376352",
+              "seniority": "Junior",
+              "department": "Marketing",
+              "position": "Content Specialist",
+              "manag": 0,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "390257",
+              "seniority": "Medior",
+              "department": "Marketing",
+              "position": "Content Specialist",
+              "manag": 0,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "423423",
+              "seniority": "Senior",
+              "department": "Development",
+              "position": "DevOps Engineer",
+              "manag": 0,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "429827",
+              "seniority": "Medior",
+              "department": "Accounting",
+              "position": "Accountant",
+              "manag": 0,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "431507",
+              "seniority": "Senior",
+              "department": "Development",
+              "position": "Software Developer",
+              "manag": 0,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "479342",
+              "seniority": "Medior",
+              "department": "Sales",
+              "position": "Sales Operations Specialist",
+              "manag": 0,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "480087",
+              "seniority": "Senior",
+              "department": "Marketing",
+              "position": "Campaign Specialist",
+              "manag": 0,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "496998",
+              "seniority": "Medior",
+              "department": "Development",
+              "position": "DevOps Engineer",
+              "manag": 1,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "498265",
+              "seniority": "Senior",
+              "department": "Sales",
+              "position": "Sales Representative",
+              "manag": 0,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "498833",
+              "seniority": "Medior",
+              "department": "Administration",
+              "position": "Office Coordinator",
+              "manag": 0,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "545284",
+              "seniority": "Executive",
+              "department": "Executive",
+              "position": "Chief Operating Officer",
+              "manag": 0,
+              "upper_manag": 0,
+              "exec_manag": 1
+       },
+       {
+              "ID": "574752",
+              "seniority": "Executive",
+              "department": "Executive",
+              "position": "Chief Financial Officer",
+              "manag": 0,
+              "upper_manag": 0,
+              "exec_manag": 1
+       },
+       {
+              "ID": "585683",
+              "seniority": "Senior",
+              "department": "Development",
+              "position": "DevOps Engineer",
+              "manag": 0,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "592297",
+              "seniority": "Senior",
+              "department": "Sales",
+              "position": "Sales Representative",
+              "manag": 0,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "593856",
+              "seniority": "Junior",
+              "department": "Sales",
+              "position": "Sales Representative",
+              "manag": 1,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "607773",
+              "seniority": "Entry",
+              "department": "Development",
+              "position": "QA Test Engineer",
+              "manag": 0,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "669223",
+              "seniority": "Junior",
+              "department": "Development",
+              "position": "QA Test Engineer",
+              "manag": 0,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "679728",
+              "seniority": "Entry",
+              "department": "Development",
+              "position": "Software Developer",
+              "manag": 0,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "689978",
+              "seniority": "Medior",
+              "department": "Development",
+              "position": "Software Developer",
+              "manag": 0,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "715620",
+              "seniority": "Junior",
+              "department": "Administration",
+              "position": "HR Specialist",
+              "manag": 1,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "740136",
+              "seniority": "Senior",
+              "department": "Marketing",
+              "position": "SEO Specialist",
+              "manag": 1,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "759006",
+              "seniority": "Medior",
+              "department": "Accounting",
+              "position": "Accountant",
+              "manag": 1,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "763148",
+              "seniority": "Medior",
+              "department": "Sales",
+              "position": "Sales Operations Specialist",
+              "manag": 0,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "763822",
+              "seniority": "Senior",
+              "department": "Development",
+              "position": "Software Developer",
+              "manag": 0,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "778475",
+              "seniority": "Medior",
+              "department": "Sales",
+              "position": "Sales Representative",
+              "manag": 0,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "788643",
+              "seniority": "Senior",
+              "department": "Development",
+              "position": "Database Engineer",
+              "manag": 0,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "821341",
+              "seniority": "Entry",
+              "department": "Development",
+              "position": "Software Developer",
+              "manag": 0,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "903641",
+              "seniority": "Senior",
+              "department": "Development",
+              "position": "QA Test Engineer",
+              "manag": 0,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "929674",
+              "seniority": "Entry",
+              "department": "Administration",
+              "position": "Office Assistant",
+              "manag": 0,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "935015",
+              "seniority": "Medior",
+              "department": "Marketing",
+              "position": "Campaign Specialist",
+              "manag": 0,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "937570",
+              "seniority": "Executive",
+              "department": "Executive",
+              "position": "Chief Executive Officer",
+              "manag": 0,
+              "upper_manag": 0,
+              "exec_manag": 1
+       },
+       {
+              "ID": "940138",
+              "seniority": "Medior",
+              "department": "Sales",
+              "position": "Business Development Representative",
+              "manag": 0,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "981427",
+              "seniority": "Senior",
+              "department": "Sales",
+              "position": "Account Specialist",
+              "manag": 0,
+              "upper_manag": 0,
+              "exec_manag": 0
+       },
+       {
+              "ID": "993152",
+              "seniority": "Medior",
+              "department": "Development",
+              "position": "Software Developer",
+              "manag": 0,
+              "upper_manag": 0,
+              "exec_manag": 0
+       }
+]
