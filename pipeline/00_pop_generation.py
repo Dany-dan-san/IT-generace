@@ -1,10 +1,35 @@
-# ===========================================================
+# =======================================================================================================
 # STEP 0: POPULATION GENERATION WITH BASIC FEATURES
-# ===========================================================
+# =======================================================================================================
 
-# This script creates the initial population of workers. 
+# This script creates the initial population of workers using a single
+# function called gen_pop() for a quick and easy use. The function parameters are:
 
-# It assigns each worker with
+# ===============================================================================
+# A. KEY PARAMETERS
+# ===============================================================================
+
+# The function parameters are:
+
+# - N: Size of population to generate (e.g., 50) [MANDATORY]
+# - PROB_MALE / PROB_FEMALE: The percentage breakdown between men and women. [MANDATORY]
+
+# - COUNTRIES: Country codes (e.g., CZ, FR, DE) that can be used as a worker's nationality.
+# - COUNTR_PROBS: The desired percentage of workers by target nationality (e.g., [0.5, 0.5])
+# - MALE_MU_HEIGHT, MALE_SIGMA_HEIGHT: Normal distribution parameters for male height (mu, sigma). 
+# - FEMALE_MU_HEIGHT, FEMALE_SIGMA_HEIGHT: Normal distribution parameters for female height (mu, sigma). 
+# - MALE_MU_WEIGHT, MALE_SIGMA_WEIGHT: Log-normal distribution parameters for male weight (mu, sigma).
+# - FEMALE_MU_WEIGHT, FEMALE_SIGMA_WEIGHT: Log-normal distribution parameters for female weight (mu, sigma).
+
+# Example: gen_pop(n=50, prob_male=0.25,prob_female=0.75)
+
+# ===============================================================================
+# B. KEY OUTPUT
+# ===============================================================================
+
+# The function returns a JSON file titled "users" where each worker is assigned
+# the following information: 
+
 #  - Unique ID
 #  - Nationality
 #  - Gender
@@ -18,8 +43,11 @@
 
 # and saves the output inside "user.json".
 
-# Note: Developed without the use of AI. 
+# NOTE: Developed without the use of AI. 
 
+# ===========================================================
+# C. FULL SCRIPT
+# ===========================================================
 
 from scipy.stats import beta
 from names_dataset import NameDataset
@@ -42,7 +70,7 @@ def gen_pop(n,
             female_mu_height=None, 
             female_sigma_height=None, 
             male_mu_weight=None, 
-            male_signa_weight=None,
+            male_sigma_weight=None,
             female_mu_weight=None,
             female_sigma_weight=None):
 
@@ -63,8 +91,8 @@ def gen_pop(n,
         female_sigma_height = 6.2
     if male_mu_weight is None:
         male_mu_weight = 84.5
-    if male_signa_weight is None:
-        male_signa_weight = 14.5
+    if male_sigma_weight is None:
+        male_sigma_weight = 14.5
     if female_mu_weight is None:
         female_mu_weight = 69.8
     if female_sigma_weight is None:
