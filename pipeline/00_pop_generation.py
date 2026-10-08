@@ -1,3 +1,26 @@
+# ===========================================================
+# STEP 0: POPULATION GENERATION WITH BASIC FEATURES
+# ===========================================================
+
+# This script creates the initial population of workers. 
+
+# It assigns each worker with
+#  - Unique ID
+#  - Nationality
+#  - Gender
+#  - First name
+#  - Last name
+#  - Height
+#  - Weight
+#  - Location
+#  - Date of Birth
+#  - Generation timestamp 
+
+# and saves the output inside "user.json".
+
+# Note: Developed without the use of AI. 
+
+
 from scipy.stats import beta
 from names_dataset import NameDataset
 import pandas as pd
